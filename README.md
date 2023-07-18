@@ -9,7 +9,7 @@
     git init
     git add .
     git commit -m "first commit"
-    git branch -M main
+    git branch -M main  
     git remote set-url origin https://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@github.com/zhaojun2066/java-mistakes.git
     git push -u origin main
 
