@@ -2,7 +2,7 @@ package org.shark.common.value;
 
 import org.shark.common.names.Dog;
 
-public class ValueTest {
+public class TestValue {
 
 
     public static void main(String[] args) {
@@ -16,20 +16,27 @@ public class ValueTest {
         newDog(dog);
         System.out.println("1000之后的 main dog: " + dog.getAge());
     }
+
     private static void incrementDogAge(Dog dog) {
-        dog.setAge(dog.getAge()+1);
-        System.out.println("increment dog age: " + dog.getAge());
+
+        int age = 100;
+        if (age > 100) {
+            System.out.println("increment dog age: " + dog.getAge());
+        }
+        for (int i = 0; i < age; i++) {
+            System.out.println("increment dog age: " + dog.getAge());
+        }
     }
 
     private static void newDog(Dog dog) {
-        dog  = new Dog();
+        dog = new Dog();
         dog.setAge(1000);
         System.out.println("newDog age: " + dog.getAge());
     }
 
     private static void increment(int value) {
         value++;
-        System.out.println("increment value: "+ value);
+        System.out.println("increment value: " + value);
     }
 
 
