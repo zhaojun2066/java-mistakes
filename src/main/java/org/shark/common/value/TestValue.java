@@ -7,9 +7,9 @@ public class TestValue {
 
     public static void main(String[] args) {
 
-        Long v = 1000L;
-        Long v2 = 1000L;
-        System.out.println(v .equals(v2) );
+//        Long v = 1000L;
+//        Long v2 = 1000L;
+//        System.out.println(v .equals(v2) );
 
         int value = 1;
         increment(value);
