@@ -38,5 +38,9 @@ public class TestValue {
         System.out.println("increment value: " + value);
     }
 
+    private static long addLong(long a ,long b){
+        return a + b;
+    }
+
 
 }
