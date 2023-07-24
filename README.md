@@ -43,4 +43,7 @@
 #### 快速折叠展开
     mac: command + ,command - 
     win: ctrl  +, ctrl - 
+
+### java线程总结
+    怎么启动一个线程
     
