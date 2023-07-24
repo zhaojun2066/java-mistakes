@@ -13,6 +13,8 @@ public class Dog {
     /**体重**/
     private float weightInKg;
 
+
+
     private String address;
 
 
