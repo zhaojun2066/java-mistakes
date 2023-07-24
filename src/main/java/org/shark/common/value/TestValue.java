@@ -39,7 +39,7 @@ public class TestValue {
     }
 
     private static long addLong(long a ,long b){
-        return a - b;
+        return a + b;
     }
 
 
