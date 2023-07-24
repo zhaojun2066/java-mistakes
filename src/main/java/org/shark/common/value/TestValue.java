@@ -6,6 +6,11 @@ public class TestValue {
 
 
     public static void main(String[] args) {
+
+        Long v = 1000L;
+        Long v2 = 1000L;
+        System.out.println(v .equals(v2) );
+
         int value = 1;
         increment(value);
         System.out.println("main value: " + value);
@@ -18,14 +23,8 @@ public class TestValue {
     }
 
     private static void incrementDogAge(Dog dog) {
-
-        int age = 100;
-        if (age > 100) {
-            System.out.println("increment dog age: " + dog.getAge());
-        }
-        for (int i = 0; i < age; i++) {
-            System.out.println("increment dog age: " + dog.getAge());
-        }
+        dog.setAge(dog.getAge()+1);
+        System.out.println("increment dog age: " + dog.getAge());
     }
 
     private static void newDog(Dog dog) {
