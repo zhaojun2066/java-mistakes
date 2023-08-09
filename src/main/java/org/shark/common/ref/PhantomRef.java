@@ -1,4 +1,4 @@
-package org.shark.common.mistakes;
+package org.shark.common.ref;
 
 import lombok.Data;
 

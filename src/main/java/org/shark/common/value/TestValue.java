@@ -22,10 +22,14 @@ public class TestValue {
         System.out.println("1000之后的 main dog: " + dog.getAge());
     }
 
-    private static void incrementDogAge(Dog dog) {
-        dog.setAge(dog.getAge()+1);
-        System.out.println("increment dog age: " + dog.getAge());
-    }
+   private static void incrementDogAge(Dog dog) {
+    // 获取狗的年龄并加1
+    int newAge = dog.getAge() + 1;
+     // 更新狗的年龄
+    dog.setAge(newAge);
+     // 打印增加后的狗的年龄
+    System.out.println("增加狗的年龄：" + dog.getAge());
+}
 
     private static void newDog(Dog dog) {
         dog = new Dog();

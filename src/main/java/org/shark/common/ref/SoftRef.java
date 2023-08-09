@@ -1,4 +1,4 @@
-package org.shark.common.mistakes;
+package org.shark.common.ref;
 import java.lang.ref.SoftReference;
 public class SoftRef {
     public static void main(String[] args) {

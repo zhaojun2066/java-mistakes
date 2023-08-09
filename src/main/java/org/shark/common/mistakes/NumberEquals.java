@@ -3,7 +3,7 @@ package org.shark.common.mistakes;
 import java.util.List;
 import java.util.Objects;
 
-public class Mistakes {
+public class NumberEquals {
     public static void main(String[] args) {
          equlasInteger(128,128);
     }
